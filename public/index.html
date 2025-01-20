@@ -3,33 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <title>My Test Chat Website</title>
+    <title>My FAQ Agent Test Website</title>
 	
 
 </head>
-<body>
-	<script type='text/javascript'>
-	function initEmbeddedMessaging() {
-		try {
-			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
-			embeddedservice_bootstrap.init(
-				'00DQy00000IXfLF',
-				'TestLiveChat',
-				'https://orgfarm-cb0b6db331-dev-ed.develop.my.site.com/ESWTestLiveChat1736712563668',
-				{
-					scrt2URL: 'https://orgfarm-cb0b6db331-dev-ed.develop.my.salesforce-scrt.com'
-				}
-			);
-		} catch (err) {
-			console.error('Error loading Embedded Messaging: ', err);
-		}
-	};
-</script>
-<script type='text/javascript' src='https://orgfarm-cb0b6db331-dev-ed.develop.my.site.com/ESWTestLiveChat1736712563668/assets/js/bootstrap.min.js'></script>
+    <h1>Welcome to My FAQ Agent Test Website</h1>
+    <p>Click the chat button below to start a conversation</p>
 
-    <h1>Welcome to My Test Chat Website</h1>
-    <p>Click the chat button below to start a conversation:</p>
-    <button id="startChat" onclick="initEmbeddedMessaging()">Start Chat</button>
 </body>
 </html>
